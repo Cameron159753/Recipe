@@ -1,0 +1,57 @@
+div.a {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+  border-radius: 8px;
+}
+
+table {
+  margin: 20px;
+}
+h2 {
+  margin: 20px;
+}
+p {
+  margin: 20px;
+}
+
+h1 {
+  margin: 20px;
+}
+
+Main{
+  
+  width: 300px;
+  border: 1px solid black;
+  
+  margin: 20px;
+}
+
+body {
+  background-color: lightgray;
+}
+h1 {
+  color: green;
+}
+h2 {
+  color: green;
+}
+
