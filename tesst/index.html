@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+
+
+
+<body>
+  <nav role='navigation'>
+		<div id="menuToggle">
+			<input type="checkbox" />
+			<span></span>
+			<span></span>
+			<span></span>
+			<ul id="menu">
+				<a href="#">
+					<li>Home</li>
+				</a>
+				<a href="#">
+					<li>Portfolio</li>
+				</a>
+				<a href="#">
+					<li>About</li>
+				</a>
+				<a href="#">
+					<li>Contact</li>
+				</a>
+			</ul>
+		</div>
+	</nav>
+  <section class="hero">
+    <div class="inner-text">
+      <p class="p1">WEB</p>
+      <p class="p2">DEVELOPER</p>
+    </div>
+    <a class="hero-down" href="#this">
+      <div class="btn-react"></div>
+    </a>
+  </section>
+  <br> <br>  
+  <!-- about -->
+  <section class= "section1">
+    <div class= "container">
+      <h1 class= "title">TITLE</h1>
+      <div class= "content-wrapper">
+        <div class= "img-wrapper">
+          <div class= "img"><img src="images/me.jpg" width="300px"></div>
+        </div>
+        <div class="text-wrapper">
+          <p class= "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eaque deserunt aliquam. Provident labore molestias sequi autem deleniti eaque nisi corporis eveniet perferendis, ut iusto, recusandae praesentium harum distinctio iste!
+          </p>
+          <p class= "text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, fugit. Aperiam dignissimos voluptates praesentium fugit facere maiores, dolorum obcaecati maxime.
+          </p>
+          <div class="btn-wrapper">
+            <a href="#" class="btn">
+              <span>More</span>
+            </a>
+          </div>
+        </div>
+     </div>
+    </div>
+  </section>
+ 
+<!-- testimonial -->
+<div class="carousel">
+  <div class="carousel__img-container">
+      <img src="https://www.darryncodes.co.uk/img/darryncodes-profile.jpg" alt="" class="carousel__image" id="img">
+  </div>
+  <blockquote class="testimonial">
+      <p class="testimonial__text" id="testimonial">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iste, voluptate quam ipsum aliquam, corporis dicta distinctio, ea omnis quo quae non nulla facere rerum aperiam."</p>
+      <p class="testimonial__name" id="name">@darryncodes</p>
+      <p class="testimonial__job" id="job">Front-end developer</p>
+  </blockquote>
+  <button class="carousel__btn carousel__btn--left">
+      <ion-icon name="chevron-back-outline"></ion-icon>
+  </button>
+  <button class="carousel__btn carousel__btn--right">
+      <ion-icon name="chevron-forward-outline"></ion-icon>
+  </button>
+</div>
+    <script src="script.js" defer></script>
+</body>
+</html>
